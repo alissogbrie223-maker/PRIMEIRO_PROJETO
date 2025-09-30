@@ -1,42 +1,182 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+
+<html lang="pt-br">
 <html>
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8" />
-  <title>O PEQUENO PRÍNCIPE</title> 
-  <style>
-   p {
-     color:black
-   }
-  </style>
-</head>
-
-<body>
-  <h1 style="color:gray"><i><u>O PEQUENO PRÍNCIPE</u></i></h1>
-  <h3 style="color:red">Capítulos 1 e 2</h3>
-  <p>Narrador <b>(piloto)</b> conta como, quando criança, desenhou uma jiboia
-    engolindo um elefante, mas os adultos só viam um chapéu. Já adulto, 
-    ele cai com seu avião no deserto do Saara e encontra o Pequeno Príncipe.</p>
-
-  <h3 style="color:red">Capítulos 3 a 4</h3>
-  <p>O piloto e o Príncipe conversam. Descobrimos que o menino veio de
-    um pequeno planeta chamado Asteroide B-612. Ele fala da solidão e faz 
-    perguntas sem parar.</p>
-
-  <h3 style="color:red">Capítulos 5 a 9</h3>
-  <p>Pequeno Príncipe fala sobre seu planeta, onde cresciam baobás
-    perigosos. Ele cuidava da sua única flor <b>(a Rosa)</b>, que era vaidosa,
-    mas ele amava mesmo assim...
-    </p>
-  <p style="color:green"><b>LINK DO LIVRO ABAIXO</b>
-  </p>
-  <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pt.wikipedia.org/wiki/Le_Petit_Prince&ved=2ahUKEwj7s6KBktyPAxWDqJUCHT1ZNG8QFnoFCI0BEAE&usg=
-    AOvVaw3BNzhpTC8ANa_Wxj6oMJXK">LIVRO O PEQUENO PRINCIPE</a>
-  <h2>Ilustraçao capa do livro:</h2>
-    <img src="images.jpeg"
-
-   </body>
-
-</html>
+      <head>          
+            <meta charset="utf-8" />
+            <meta name="description" content="Um quiz interativo apara testar seus conhecimentos">
+            <title>QUIZ PARA PROGAMADORES</title> 
+            <style>
+                   h3 { color:blue }
+            </style>
+      </head>
+      <body>
+            <header>
+                    <h1 style ="color:blue"> QUIZ INTERATIVO PARA PROGAMADORES</h1>
+                    <p>Teste seus conhecimentos em progamação.</p>
+            </header>
+            <main>
+                  <!--Introdução-->
+                  <section>
+                  <h2 style="color:red">Sobre esse quiz:</h2>
+                  <p>Este quiz foi desenvolvido para testar seus 
+                  conhecimentos em progamação,como linguagens
+                  de progação,conceitos básicos e mais...</p>
+                  </section>
+                  <!--Pergunta 1-->
+                  <section>
+                           <h3><strong><i>Pergunta 1:</i></strong> Qual linguagem é utilizada para
+                           estruturar páginas web?
+                           </h3>
+                           <form>
+                                 <input type="radio" value="Python" id="P1a" name="Pergunta 1" 
+                                     <label for="P1a">Python</label><br>                     
+                                 <input type="radio" value="Java" id="P1b" name="Pergunta 1" 
+                                     <label for="P1b">Java</label><br>
+                                 <input type="radio" value="HTML" id="P1c" name="Pergunta 1" 
+                                     <label for="P1c">HTML</label><br>                     
+                                 <input type="radio" value="CSS" id="P1d" name="Pergunta 1" 
+                                     <label for="P1d">CSS</label><br>
+                           </form>                 
+                  </section>
+                  <!--Pergunta 2-->                       
+                  <section>
+                           <h3><strong><i>Pergunta 2:</i></strong> Na URL <u><i>https://www.google.com</i></u> o 
+                           trecho "google.com" é o _________</h3>
+                           <form>
+                                 <input type="text" id="P2" name="Pergunta 2" placeholder="Digite sua resposta...">
+                           </form>
+                 </section>
+                 <!--Pergunta 3-->
+                 <section>
+                          <h3><strong><i>Pergunta 3:</i></strong> Escreva um exemplo de senha forte:</h3>
+                          <form>
+                                <input type="password" id="P3" name="Pergunta 3" placeholder="Digite uma senha..."
+                          </form>
+                 </section>
+                 <!--Pergunta 4-->
+                 <section>
+                          <h3><strong><i>Pergunta 4:</i></strong> Em que ano o HTML lançou sua primeira versão?</h3>
+                         <form>
+                               <input type="date" id="P4" name="Pergunta 4"
+                         </form>
+                 </section>
+                 <!--Pergunta 5-->
+                 <section>
+                          <h3><strong><i>Pergunta 5:</i></strong> Quais dessas tecnologias são consideradas linguagens de progamação?</h3>
+                          <form>                  
+                                <input type="checkbox" id="P5a" name="Pergunta 5" value="Java Script">
+                                    <label for="P5a">Java Script</label><br>
+                                <input type="checkbox" id="P5b" name="Pergunta 5" value="Java">
+                                    <label for="P5b">Java</label><br>
+                                <input type="checkbox" id="P5c" name="Pergunta 5" value="Google">
+                                    <label for="P5c">Google</label><br>
+                                <input type="checkbox" id="P5d" name="Pergunta 5" value="CSS">
+                                    <label for="P5d">CSS</label><br>
+                          </form>
+                 </section>
+                 <!--Pergunta 6--> 
+                 <section>
+                          <h3><strong><i>Pergunta 6:</i></strong> Faça o upload de um arquivo contendo código HTMl:</h3>
+                          <form>
+                                <input type="file" id="P6" name="Pergunta 6">
+                          </form>
+                 </section> 
+                 <!--Pergunata 7--> 
+                 <section>
+                          <h3><strong><i>Pergunta 7:</i></strng> Selecione o atributo do <i><u>input</u></i> que define o seu tipo:</h3> 
+                          <form>
+                                <select name="Pergunta 7" id="P7">
+                                        <option value="Escolha uma opção:">Escolha uma opção:</option>
+                                        <option value="id">Id</option>
+                                        <option value="type">Type</option>
+                                        <option value="placeholder">Placeholder</option>                                      
+                                </select>
+                          </form>
+                 </section>  
+                 <!--Pergunta 8-->
+                 <section>
+                          <h3><strong><i>Pergunta 8:</i></strong> Qual linguagem de progamação e representada pelo logotipo abaixo?:</h3>  
+                          <form>
+                                 <figure>                                  
+                                         <img src="images.png" alt="logotipo de uma linguagem de progamação" width="150" height="150">
+                                         <figcaption>Figura 1:Logotipo de uma linguagem de progamação</figcaption>
+                                 </figure>    
+                                <input type="text" id="P8" name="Pergunta 8" placeholder="Digite sua resposta..."
+                                
+                          </form>
+                 </section>  
+                 <!--Tabela de Pontuação--> 
+                 <section>
+                          <h3>Tabela de Pontuação:</h3> 
+                          <table border="1">
+                                 <thead style="color:red">
+                                        <th>Pontuação</th>
+                                        <th>Avaliação</th>
+                                 </thead>
+                                 <tbody>
+                                 <tr>
+                                    <td>0-2</td>
+                                       <td>Não desista!</td>                                       
+                                 </tr>
+                                 <tr>
+                                       <td>3-4</td>
+                                       <td>Você ainda precisa melhorar!</td>
+                                 </tr>
+                                 <tr>
+                                       <td>5-7</td> 
+                                       <td>Bom,seu conhecimento em progamação esta satisfatório!</td>                                     
+                                 </tr>
+                                 <tr>
+                                       <td>8</td>
+                                       <td>Perfeito!</td>
+                                 </tr>
+                                 </tbody>
+                                 <tfoot>
+                                        <tr>
+                                            <td colspan="2">Boa sorte na próxima!</td>
+                                        </tr>
+                                 </tfoot>        
+                          </table>
+                 </section>
+                 <!--Lista de respostas-->
+                 <section>
+                          <h3>Verifique suas respostas:</h3>
+                          <details>
+                                   <summary style="color:red">Clique aqui para ver as respostas.</summary>
+                                   <ol>
+                                       <li>HTML</li>
+                                       <li>Domínio</li>
+                                       <li>Agvj4553%$_ijvggj</li>
+                                       <li>1991</li>
+                                       <li>Java Script, Java</li>
+                                       <li>Arquivo deve ter extensão <strong><i>.html</i></strong></li>
+                                       <li>Type</li>
+                                       <li>Java</li>
+                                   </ol>
+                          </detais>
+                 </section>
+                 <!--Fomulário de feedback-->
+                 <section>
+                       <h3>Nos dê o seu feedback</h3>
+                       <fieldset>
+                       <legend>Informações de contato</legend>
+                           <form>
+                               <label for="name">Nome:</label>
+                               <input type="text" id="name" name="name"><br>
+                               <label for="email">Email:</label>
+                               <input type="email" id="email" name="email"><br>
+                               <label for="comentários">Comentários:</label>
+                               <textarea id="comentários" name="comentários" rows="4" cols="50" placeholder="Digite aqui o seu comentário..."></textarea><br>
+                               <button onclik="alert"('FEEDBACK ENVIADO!!') style="color:blue">Envie o FeedBack</button>
+                         </form>                                                                                        
+                     </fieldset>
+                 </section>
+              
+           </main>
+           <footer>
+                 <p>&copy Quiz de progamdores. Todos os direitos reservados.</p>
+                 <p>Para conhecer outros quizzes<a href="https://www.google.com" target="_blank">clique aqui</a></p>
+           </footer>
+      </body>  
+</html> 
